@@ -1,0 +1,4 @@
+function mostrarResumen(){
+
+    let pagos = [];
+}

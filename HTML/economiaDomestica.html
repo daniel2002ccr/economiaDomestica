@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,68 +8,73 @@
     <link rel="stylesheet" href="/EconomíaDomestica/CSS/economiaDomestica.css">
     <script src="/EconomíaDomestica/JS/economiaDomestica.js"></script>
 </head>
+
 <body>
-    <div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/luz.png" alt="luz">
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/luz.png" alt="luz" onclick="agregarPago()">
         <div class="informacion">
             <p>Luz: 6€</p>
         </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/calefaccion.jpg" alt="calefaccion">
-    <div class="informacion">
-        <p>Calefaccion: 8€</p>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/grifo.jpg" alt="grifo">
-    <div class="informacion">
-        <p>Agua: 10€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/calefaccion.jpg" alt="calefaccion" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Calefaccion: 8€</p>
+        </div>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/wifi.jpg" alt="wifi">
-    <div class="informacion">
-        <p>Wifi: 20€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/grifo.jpg" alt="grifo" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Agua: 10€</p>
+        </div>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/comunidad.png" alt="comunidad">
-    <div class="informacion">
-        <p>Comunidad: 4€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/wifi.jpg" alt="wifi" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Wifi: 20€</p>
+        </div>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/educacion.jpg" alt="educacion">
-    <div class="informacion">
-        <p>Educacion: 15€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/comunidad.png" alt="comunidad" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Comunidad: 4€</p>
+        </div>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/fruta.png" alt="fruta">
-    <div class="informacion">
-        <p>Luz: Fruta 3€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/educacion.jpg" alt="educacion" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Educacion: 15€</p>
+        </div>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/mascotas.jpg" alt="mascotas">
-    <div class="informacion">
-        <p>Mascotas: 11€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/fruta.png" alt="fruta" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Luz: Fruta 3€</p>
+        </div>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/6903311.png" alt="seguridad">
-    <div class="informacion">
-        <p>Seguridad: 5€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/mascotas.jpg" alt="mascotas" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Mascotas: 11€</p>
+        </div>
     </div>
-</div>
-<div class = "gasto">
-    <img src="/EconomíaDomestica/IMG/combustible.jpg" alt="combustible">
-    <div class="informacion">
-        <p>combustible: 10€</p>
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/6903311.png" alt="seguridad" onclick="agregarPago()">
+        <div class="informacion">
+            <p>Seguridad: 5€</p>
+        </div>
     </div>
-</div>
-
+    <div class="gasto">
+        <img src="/EconomíaDomestica/IMG/combustible.jpg" alt="combustible" onclick="agregarPago()">
+        <div class="informacion">
+            <p>combustible: 10€</p>
+        </div>
+    </div>
+    <div id="resumen">
+        <h2>Resumen de los gastos</h2>
+        <button onclick="mostrarResumen()">Mostrar Resumen</button>
+    </div>
 
 </body>
+
 </html>
