@@ -1,0 +1,34 @@
+
+.gasto {
+    display: inline-block; 
+    text-align: center;
+  }
+
+#resumen{
+  text-align: center;
+}
+.button{
+  text-align: center;
+}
+.lateral-derecho {
+ width: 25%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    border-left: 1px solid #ccc;
+    overflow-y: scroll;
+
+}
+.contenedorPrincipal{
+  height: 100%; 
+  width: 75%; 
+  float: left;
+}
+.resaltado {
+  background-color: yellow; 
+}
+.ultimo-pago {
+  font-weight: bold; 
+}

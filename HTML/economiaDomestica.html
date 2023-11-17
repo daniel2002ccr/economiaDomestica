@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/EconomiaDomestica/economiaDomestica/CSS/economiaDomestica.css">
+    <script src="/EconomiaDomestica/economiaDomestica/JS/economiaDomestica.js"></script>
+</head>
+
+<body>
+    <div class="contenedorPrincipal">
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/luz.png" alt="luz" onclick="agregarPago('Luz')">
+            <div class="informacion">
+                <p>Luz</p>
+                <input type="number" id="costeLuz" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/calefaccion.jpg" alt="calefaccion"
+                onclick="agregarPago('Calefaccion')">
+            <div class="informacion">
+                <p>Calefaccion</p>
+                <input type="number" id="costeCalefaccion" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/grifo.jpg" alt="grifo" onclick="agregarPago('Agua')">
+            <div class="informacion">
+                <p>Agua</p>
+                <input type="number" id="costeAgua" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/wifi.jpg" alt="wifi" onclick="agregarPago('Wifi')">
+            <div class="informacion">
+                <p>Wifi</p>
+                <input type="number" id="costeWifi" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/comunidad.png" alt="comunidad"
+                onclick="agregarPago('Comunidad')">
+            <div class="informacion">
+                <p>Comunidad</p>
+                <input type="number" id="costeComunidad" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/educacion.jpg" alt="educacion"
+                onclick="agregarPago('Educacion')">
+            <div class="informacion">
+                <p>Educacion</p>
+                <input type="number" id="costeEducacion" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/fruta.png" alt="fruta" onclick="agregarPago('Fruta')">
+            <div class="informacion">
+                <p>Fruta</p>
+                <input type="number" id="costeFruta" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/mascotas.jpg" alt="mascotas"
+                onclick="agregarPago('Mascotas')">
+            <div class="informacion">
+                <p>Mascotas</p>
+                <input type="number" id="costeMascotas" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/6903311.png" alt="seguridad"
+                onclick="agregarPago('Seguridad')">
+            <div class="informacion">
+                <p>Seguridad</p>
+                <input type="number" id="costeSeguridad" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div class="gasto">
+            <img src="/EconomiaDomestica/economiaDomestica/IMG/combustible.jpg" alt="combustible"
+                onclick="agregarPago('Combustible')">
+            <div class="informacion">
+                <p>Combustible</p>
+                <input type="number" id="costeCombustible" placeholder="Ingrese el importe">
+            </div>
+        </div>
+        <div id="resumen">
+
+        </div>
+        <button onclick="mostrarResumen()">Mostrar Trámite</button>
+    </div>
+    
+ 
+
+    <div class="lateral-derecho">
+        <div class="info-pagos">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+{
+  "conceptos": [
+    {
+      "id": 1,
+      "nombre": "Luz",
+      "imprescindible": true,
+      "categoria": "S_BAS"
+    },
+    {
+      "id": 2,
+      "nombre": "Calefaccion",
+      "imprescindible": true,
+      "categoria": "S_BAS"
+    },
+    {
+      "id": 3,
+      "nombre": "Agua",
+      "imprescindible": true,
+      "categoria": "S_BAS"
+    },
+    {
+      "id": 4,
+      "nombre": "Wifi",
+      "imprescindible": false,
+      "categoria": "WIF"
+    },
+    {
+      "id": 5,
+      "nombre": "Comunidad",
+      "imprescindible": false,
+      "categoria": "COM"
+    },
+    {
+      "id": 6,
+      "nombre": "Educacion",
+      "imprescindible": false,
+      "categoria": "EDU"
+    },
+    {
+      "id": 7,
+      "nombre": "Fruta",
+      "imprescindible": false,
+      "categoria": "FRU"
+    },
+    {
+      "id": 8,
+      "nombre": "Mascotas",
+      "imprescindible": false,
+      "categoria": "MAS"
+    },
+    {
+      "id": 9,
+      "nombre": "Seguridad",
+      "imprescindible": false,
+      "categoria": "SEG"
+    },
+    {
+      "id": 10,
+      "nombre": "Combustible",
+      "imprescindible": false,
+      "categoria": "GAS"
+    }
+  ],
+  "registros": [
+ 
+  ]
+}
